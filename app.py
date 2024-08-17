@@ -19,7 +19,7 @@ from utils.ui import (
 )
 
 st.set_page_config(
-    page_title="Playground", layout="wide", page_icon="./images/flask.png"
+    page_title="Playground", layout="wide", page_icon="./images/algominds.png"
 )
 
 

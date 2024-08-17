@@ -15,7 +15,7 @@ from utils.functions import img_to_bytes
 
 
 def introduction():
-    st.title("**Welcome to playground 🧪**")
+    st.title("**Welcome to AlgoMinds 🧪**")
     st.subheader(
         """
         This is a place where you can get familiar with machine learning models directly from your browser
@@ -172,7 +172,7 @@ def footer():
     st.sidebar.markdown("---")
     st.sidebar.markdown(
         """
-        [<img src='data:image/png;base64,{}' class='img-fluid' width=25 height=25>](https://github.com/ahmedbesbes/playground) <small> Playground 0.1.0 | April 2021</small>""".format(
+        [<img src='data:image/png;base64,{}' class='img-fluid' width=25 height=25>](https://github.com/itsanmollll/AlgoMinds) <small> AlgoMinds | August</small>""".format(
             img_to_bytes("./images/github.png")
         ),
         unsafe_allow_html=True,
