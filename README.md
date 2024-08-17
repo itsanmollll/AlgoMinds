@@ -12,9 +12,12 @@ A brief description of your project.
   - [2. Set Up a Virtual Environment](#2-set-up-a-virtual-environment)
   - [3. Install Dependencies](#3-install-dependencies)
   - [4. Run the Streamlit App](#4-run-the-streamlit-app)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
+[//]: # (- [Usage]&#40;#usage&#41;)
+
+[//]: # (- [Contributing]&#40;#contributing&#41;)
+
+[//]: # (- [License]&#40;#license&#41;)
 
 ## Prerequisites
 
@@ -36,35 +39,31 @@ git clone https://github.com/itsanmollll/AlgoMinds
 cd AlgoMinds
 ```
 ### 2. Set Up a Virtual Environment
-
-# Create a virtual environment
-python3 -m venv venv
-
-# Activate the virtual environment
-# On macOS and Linux:
-source venv/bin/activate
-
-# On Windows:
-venv\Scripts\activate
-
-
 # Install virtualenv if you don't have it
+```bash
 pip install virtualenv
-
+```
 # Create a virtual environment
+```bash
 virtualenv venv
+```
 
 # Activate the virtual environment
 # On macOS and Linux:
+```bash
 source venv/bin/activate
-
+```
 # On Windows:
+```bash
 venv\Scripts\activate
-
-
+```
+### 3. Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
-
+### 4. Run the Streamlit App
+```bash
 streamlit run app.py
-
+```
 
