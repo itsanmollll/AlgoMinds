@@ -19,7 +19,7 @@ def local_css(file_name):
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 
-@st.cache(suppress_st_warning=True, allow_output_mutation=True, show_spinner=True)
+# @st.cache(suppress_st_warning=True, allow_output_mutation=True, show_spinner=True)
 def generate_data(dataset, n_samples, train_noise, test_noise, n_classes):
     if dataset == "moons":
         x_train, y_train = make_moons(n_samples=n_samples, noise=train_noise)
