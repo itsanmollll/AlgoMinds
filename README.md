@@ -34,7 +34,8 @@ First, clone the repository to your local machine using Git:
 ```bash
 git clone https://github.com/itsanmollll/AlgoMinds
 cd AlgoMinds
-
+```
+### 2. Set Up a Virtual Environment
 
 # Create a virtual environment
 python3 -m venv venv
