@@ -30,7 +30,7 @@ Make sure you have the following installed on your machine:
 
 Follow these steps to set up the project locally.
 
-### 1. Clone the Repository
+# 1. Clone the Repository
 
 First, clone the repository to your local machine using Git:
 
@@ -38,31 +38,31 @@ First, clone the repository to your local machine using Git:
 git clone https://github.com/itsanmollll/AlgoMinds
 cd AlgoMinds
 ```
-### 2. Set Up a Virtual Environment
-# Install virtualenv if you don't have it
+# 2. Set Up a Virtual Environment
+### Install virtualenv if you don't have it
 ```bash
 pip install virtualenv
 ```
-# Create a virtual environment
+### Create a virtual environment
 ```bash
 virtualenv venv
 ```
 
-# Activate the virtual environment
-# On macOS and Linux:
+### Activate the virtual environment
+### On macOS and Linux:
 ```bash
 source venv/bin/activate
 ```
-# On Windows:
+### On Windows:
 ```bash
 venv\Scripts\activate
 ```
-### 3. Install Dependencies
+# 3. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Run the Streamlit App
+# 4. Run the Streamlit App
 ```bash
 streamlit run app.py
 ```
